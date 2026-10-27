@@ -1,0 +1,15 @@
+# 数値計算・データセット処理 (NumPy 2.0の競合を回避)
+numpy<2.0.0
+h5py
+
+# 画像処理・動画作成 (MP4保存用)
+Pillow
+imageio
+imageio[ffmpeg]
+
+# ディープラーニング・VLAモデル推論
+torch
+torchvision
+
+# Genesis Simulator (最後にインストール)
+genesis-world
