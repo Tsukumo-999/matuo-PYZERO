@@ -1,3 +1,5 @@
 /.taskloom
 /.venv
 /.vscode
+
+/mujoco_managerie

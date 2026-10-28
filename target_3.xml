@@ -1,0 +1,11 @@
+<mujoco>
+  <asset>
+    <texture type="2d" name="tex_3" file="textures/num_3.png"/>
+    <material name="mat_3" texture="tex_3"/>
+  </asset>
+  <worldbody>
+    <body name="target_3" pos="0.6146526540314107 0.15093134120462715 0.025">
+      <geom type="box" size="0.05 0.05 0.025" material="mat_3"/>
+    </body>
+  </worldbody>
+</mujoco>

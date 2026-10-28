@@ -7,9 +7,19 @@ Pillow
 imageio
 imageio[ffmpeg]
 
-# ディープラーニング・VLAモデル推論
+# ディープラーニング・VLAモデル推論 
+# MEMO: cuda対応かチェック　たまにCPU版がインストールされるので注意
 torch
 torchvision
 
 # Genesis Simulator (最後にインストール)
 genesis-world
+
+
+# HUGGING FACEのtransformers 
+
+transformers==4.40.0
+accelerate==1.1.1
+bitsandbytes 
+timm==0.9.16 
+tokenizers==0.19.1
